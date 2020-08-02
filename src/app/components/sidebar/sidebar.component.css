@@ -1,0 +1,12 @@
+.sidebar-bg{
+    background-color: aliceblue;
+    border: 1px solid aqua;
+    border-bottom: 0;
+}
+.last-link{
+    border-bottom:1px solid aqua;
+}
+
+.router-link-active{
+  background-color: aquamarine;
+}

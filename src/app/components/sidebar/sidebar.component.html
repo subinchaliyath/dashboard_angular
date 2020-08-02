@@ -1,0 +1,23 @@
+<div class="container">
+    <ul class="row nav navbar-nav ">
+        <div class="col-12 nav-item sidebar-bg" routerLinkActive="router-link-active"
+        [routerLinkActiveOptions]="{exact: true}">
+            <a class="nav-link" routerLink="/" >
+                Dashboard
+            </a>
+        </div>
+        <div class="col-12 nav-item sidebar-bg" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{exact:true}">
+            <a class="nav-link"  routerLink="/settings" 
+             >
+                Settings
+            </a>
+        </div>
+        <div class="col-12 nav-item sidebar-bg last-link" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{exact:true}">
+            <a class="nav-link"  routerLink="/about" 
+             >
+                About
+            </a>
+        </div>
+        
+    </ul>
+</div>
